@@ -1,0 +1,82 @@
+body {
+    /* background-color: rgb(193, 203, 165); */
+    background-color: cornsilk;
+    padding-top: 5%;
+    font-family: Consolas, monaco, monospace;
+    /* font-family: Gill Sans, Gill Sans MT, Calibri, sans-serif; */
+    /* font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace; */
+    /* font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif; */
+    /* font-size: 24px; */
+    text-align: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+    margin-bottom: 1%;
+}
+
+
+#header {
+    color: black;
+    font-size: 30px;
+    /* margin-bottom: 10px; */
+}
+
+#image-container {
+    display: flex;
+    justify-content: center;
+    /* overflow-x: auto; Enable horizontal scrolling if necessary */
+    padding: 10px;
+    margin: 10px; /* Center the container and keep left/right sides untouched */
+    max-width: 100%; /* Limit container to the available width */
+}
+
+
+.image {
+    border-radius: 10px;
+    margin: 0 10px;
+    max-width: 200px; /* Ensure images don't exceed their original size */
+    height: auto; /* Maintain image aspect ratio */
+    transition: transform 0.3s ease;
+}
+
+.image:hover {
+    transform: scale(1.1);
+}
+
+hr {
+    max-width: 60%;
+}
+
+#image-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+}
+
+#text-container {
+    text-align: left;
+    flex: 1; /* Allow the text container to expand and fill remaining space */
+    max-width: 45%;
+    font-size: 25px;
+}
+
+p {
+    color: black;
+}
+
+#rectangle{
+    max-width: 60%;
+    height: 10%;
+    background:black; 
+    border: 2px solid #333333;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#contacts {
+    color: white;
+}
